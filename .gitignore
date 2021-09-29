@@ -2,3 +2,4 @@
 *.p12
 *.crt
 *.key
+node_modules
