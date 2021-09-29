@@ -21,5 +21,6 @@ self.addEventListener('fetch', (event) => {
         if (request) {
             return request;
         }
+        return new Response('Ooops!');
     });
 });
