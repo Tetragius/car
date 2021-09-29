@@ -13,6 +13,7 @@ self.addEventListener('install', event => {
                 '/js/containers/app.js',
                 '/js/services/BaseElement.js',
                 '/js/services/BLE.js',
+                'https://unpkg.com/construct-style-sheets-polyfill'
             ]);
         })
     );
