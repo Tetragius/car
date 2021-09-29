@@ -1,7 +1,7 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 "use strict";
 
-var _BaseElement = require("../servuces/BaseElement.js");
+var _BaseElement = require("../services/BaseElement.js");
 
 class Range extends _BaseElement.BaseElement {
   #container = null;
@@ -46,10 +46,10 @@ class Range extends _BaseElement.BaseElement {
 
 customElements.define('range-element', Range);
 
-},{"../servuces/BaseElement.js":6}],2:[function(require,module,exports){
+},{"../services/BaseElement.js":6}],2:[function(require,module,exports){
 "use strict";
 
-var _BaseElement = require("../servuces/BaseElement.js");
+var _BaseElement = require("../services/BaseElement.js");
 
 class Stick extends _BaseElement.BaseElement {
   #isDrag = false;
@@ -227,12 +227,12 @@ class Stick extends _BaseElement.BaseElement {
 
 customElements.define('stick-element', Stick);
 
-},{"../servuces/BaseElement.js":6}],3:[function(require,module,exports){
+},{"../services/BaseElement.js":6}],3:[function(require,module,exports){
 "use strict";
 
-var _BLE = require("../servuces/BLE.js");
+var _BLE = require("../services/BLE.js");
 
-var _BaseElement = require("../servuces/BaseElement.js");
+var _BaseElement = require("../services/BaseElement.js");
 
 require("../components/stick.js");
 
@@ -365,7 +365,7 @@ class App extends _BaseElement.BaseElement {
 
 customElements.define('app-element', App);
 
-},{"../components/range.js":1,"../components/stick.js":2,"../servuces/BLE.js":5,"../servuces/BaseElement.js":6}],4:[function(require,module,exports){
+},{"../components/range.js":1,"../components/stick.js":2,"../services/BLE.js":5,"../services/BaseElement.js":6}],4:[function(require,module,exports){
 "use strict";
 
 require("./containers/app.js");
