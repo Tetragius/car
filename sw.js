@@ -4,11 +4,15 @@ self.addEventListener('install', event => {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/index.css',
                 '/icon.png',
                 '/car.webmanifest',
                 '/sw.js',
-                '/dist/boundle.js',
+                '/js/index.js',
+                '/js/components/range.js',
+                '/js/components/stick.js',
+                '/js/containers/app.js',
+                '/js/services/BaseElement.js',
+                '/js/services/BLE.js',
             ]);
         })
     );
