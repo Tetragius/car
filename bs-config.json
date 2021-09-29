@@ -1,7 +1,0 @@
-{
-    "https": {
-        "key": "localhost.key",
-        "cert": "localhost.crt"
-    },
-    "host": "192.168.0.141"
-}
