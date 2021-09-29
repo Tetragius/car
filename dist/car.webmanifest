@@ -1,0 +1,14 @@
+{
+    "name": "BLE Car",
+    "short_name": "BLEC",
+    "description": "Car worked on BLE",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen"
+}
