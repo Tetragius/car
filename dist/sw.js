@@ -1,23 +1,13 @@
 self.addEventListener('install', event => {
     event.waitUntil(
-        caches.open('v2').then(cache => {
+        caches.open('v3').then(cache => {
             return cache.addAll([
-                '/',
                 '/index.html',
                 '/index.css',
                 '/icon.png',
-                '/dist/',
+                '/dist/car.webmanifest',
+                '/dist/sw.js',
                 '/dist/boundle.js',
-                '/js/',
-                '/js/index.js',
-                '/js/components/',
-                '/js/components/range.js',
-                '/js/components/stick.js',
-                '/js/containers/',
-                '/js/containers/app.js',
-                '/js/services/',
-                '/js/services/BaseElement.js',
-                '/js/services/BLE.js'
             ]);
         })
     );
