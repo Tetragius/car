@@ -4,11 +4,11 @@
     "description": "Car worked on BLE",
     "icons": [
         {
-            "src": "icon.png",
+            "src": "/icon.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "display": "fullscreen"
 }
