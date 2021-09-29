@@ -371,7 +371,7 @@ customElements.define('app-element', App);
 require("./containers/app.js");
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/dist/sw.js').then(reg => {
+  navigator.serviceWorker.register('/sw.js').then(reg => {
     if (reg.installing) {
       console.log('installing');
     } else if (reg.waiting) {
