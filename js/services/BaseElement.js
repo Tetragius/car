@@ -1,3 +1,4 @@
+import 'https://unpkg.com/construct-style-sheets-polyfill';
 export class BaseElement extends HTMLElement {
 
     shadow = null;
