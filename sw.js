@@ -7,7 +7,7 @@ self.addEventListener('install', event => {
                 '/index.css',
                 '/icon.png',
                 '/car.webmanifest',
-                '/dist/sw.js',
+                '/sw.js',
                 '/dist/boundle.js',
             ]);
         })
@@ -15,7 +15,11 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', (event) => {
-    event.respondWith(
-      caches.match(event.request)
-    );
-  });
+    event.respondWith(async () => {
+        const request = await caches.match(event.request);
+        console.log(request);
+        if (request) {
+            return request;
+        }
+    });
+});
