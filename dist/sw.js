@@ -6,7 +6,7 @@ self.addEventListener('install', event => {
                 '/index.html',
                 '/index.css',
                 '/icon.png',
-                '/dist/car.webmanifest',
+                '/car.webmanifest',
                 '/dist/sw.js',
                 '/dist/boundle.js',
             ]);
