@@ -1,5 +1,5 @@
-import { BLE } from '../servuces/BLE.js';
-import { BaseElement } from '../servuces/BaseElement.js';
+import { BLE } from '../services/BLE.js';
+import { BaseElement } from '../services/BaseElement.js';
 import '../components/stick.js';
 import '../components/range.js';
 

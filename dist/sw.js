@@ -5,7 +5,19 @@ self.addEventListener('install', event => {
                 '/',
                 '/index.html',
                 '/index.css',
+                '/icon.png',
+                '/dist/',
                 '/dist/boundle.js',
+                '/js/',
+                '/js/index.js',
+                '/js/components/',
+                '/js/components/range.js',
+                '/js/components/stick.js',
+                '/js/containers/',
+                '/js/containers/app.js',
+                '/js/services/',
+                '/js/services/BaseElement.js',
+                '/js/services/BLE.js'
             ]);
         })
     );

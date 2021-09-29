@@ -1,4 +1,4 @@
-import { BaseElement } from '../servuces/BaseElement.js';
+import { BaseElement } from '../services/BaseElement.js';
 
 class Stick extends BaseElement {
 
