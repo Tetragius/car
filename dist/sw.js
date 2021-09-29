@@ -2,6 +2,7 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('v3').then(cache => {
             return cache.addAll([
+                '/',
                 '/index.html',
                 '/index.css',
                 '/icon.png',
