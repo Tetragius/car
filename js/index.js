@@ -2,7 +2,7 @@ import './containers/app.js';
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('/dist/sw.js')
+        .register('/sw.js')
         .then(reg => {
             if (reg.installing) {
                 console.log('installing');
