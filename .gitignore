@@ -1,6 +1,7 @@
-*.pem
-*.p12
-*.crt
-*.key
 node_modules
-*.json
+bs-config.json
+presentation
+presentation/**/*.*
+presentation/**/**
+presentation/**/**/*.*
+rename
