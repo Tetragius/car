@@ -115,7 +115,7 @@ class App extends BaseElement {
         ` : /*html*/`    
             <div class="controls">    
                 <range-element id="range" value="Infinity"></range-element>
-                <stick-element id="stick" min-x="0" max-x="255" min-y="0" max-y="255"></stick-element>
+                <stick-element id="stick" min-x="255" max-x="0" min-y="0" max-y="255"></stick-element>
             </div>
         `}        
     </div>
