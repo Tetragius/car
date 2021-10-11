@@ -6,7 +6,7 @@
 
 [Kaluma](https://kaluma.io/)
 
-[Moddable](moddable github)
+[Moddable](https://github.com/Moddable-OpenSource/moddable)
 
 [Elk.js](https://github.com/kieler/elkjs)
 
